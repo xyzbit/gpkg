@@ -4,8 +4,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/xyzbit/pkg/collection"
-	"github.com/xyzbit/pkg/threading"
+	"github.com/xyzbit/gpkg/collection"
+	"github.com/xyzbit/gpkg/threading"
 	"github.com/zeromicro/go-zero/core/lang"
 )
 

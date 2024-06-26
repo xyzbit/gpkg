@@ -3,7 +3,7 @@ package fx
 import (
 	"fmt"
 
-	"github.com/xyzbit/pkg/threading"
+	"github.com/xyzbit/gpkg/threading"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

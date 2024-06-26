@@ -1,6 +1,6 @@
-module github.com/xyzbit/pkg
+module github.com/xyzbit/gpkg
 
-go 1.22.1
+go 1.21
 
 require (
 	github.com/alicebob/miniredis/v2 v2.33.0

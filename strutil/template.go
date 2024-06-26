@@ -3,7 +3,7 @@ package strutil
 import (
 	"strings"
 
-	"github.com/xyzbit/pkg/convertor"
+	"github.com/xyzbit/gpkg/convertor"
 )
 
 const (

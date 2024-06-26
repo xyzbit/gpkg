@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xyzbit/pkg/strutil"
+	"github.com/xyzbit/gpkg/strutil"
 	"go.uber.org/goleak"
 )
 
