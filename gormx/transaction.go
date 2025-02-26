@@ -3,7 +3,7 @@ package gormx
 import (
 	"context"
 
-	"codeup.aliyun.com/qimao/pkg/contrib/biz/ctxwrap"
+	"github.com/xyzbit/gpkg/ctxwrap"
 	"gorm.io/gorm"
 )
 
