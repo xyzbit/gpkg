@@ -74,13 +74,13 @@ func TestTokenLimiter_DelayN(t *testing.T) {
 	cli := redis.NewClient(&redis.Options{
 		Addr: s.Addr(),
 	})
-	tl, err := NewTokenLimiter(cli, "", 300)
+	tl, err := NewTokenLimiter(cli, "", 10)
 	if err != nil {
 		t.Error(err)
 	}
 
 	var (
-		tryTimes = 1000
+		tryTimes = 10000
 		start    = time.Now()
 		wg       sync.WaitGroup
 		reqCount atomic.Int32
