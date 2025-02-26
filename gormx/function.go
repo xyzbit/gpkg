@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"codeup.aliyun.com/qimao/pkg/contrib/core/convertor"
+	"github.com/xyzbit/gpkg/convertor"
 )
 
 var (

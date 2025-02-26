@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"codeup.aliyun.com/qimao/pkg/contrib/core/convertor"
 	"github.com/bytedance/sonic"
+	"github.com/xyzbit/gpkg/convertor"
 	"gorm.io/gorm"
 )
 
